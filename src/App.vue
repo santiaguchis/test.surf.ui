@@ -1,15 +1,16 @@
 <template>
 	<Title/>
-	<SurfBox/>
+	<SurfIndex/>
 </template>
 <script>
+
 import Title from './components/Title.vue'
-import SurfBox from './components/SurfBox.vue'
+import SurfIndex from './views/Surf/Index.vue'
 export default {
 	name: 'App',
 	components: {
 		Title,
-		SurfBox
+		SurfIndex
 	}
 }
 </script>

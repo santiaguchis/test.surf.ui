@@ -4,8 +4,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@0;1&display=swap');
 // font-family: 'Alegreya', serif;
 @import url('https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css');
-
+html, body {
+    font-size: 10px;
+}
 body {
     font-family: 'Nunito Sans', sans-serif;
-    cursor: url(assets/cursor-default.png) , auto;
+    cursor: url(assets/cursor-default.svg) , auto;
+    overflow-x: hidden;
+    &.drag-move .card .inner {
+        cursor: url(assets/cursor-move.svg) , auto !important;
+    }
+    &.drag-move {
+        cursor: url(assets/cursor-move.svg) , auto !important;
+    }
+    .card .inner {
+        cursor: url(assets/cursor-dragger.svg) , auto;
+    }
+}
+@media screen and (min-width: 1600px) {
+    html, body {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    html, body {
+        font-size: 7px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    html, body {
+        font-size: 6px;
+    }
 }

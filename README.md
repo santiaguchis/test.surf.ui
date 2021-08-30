@@ -9,19 +9,23 @@ precio.
 Ejemplo final : [Surf UI](https://surf.santiagomora.com/)
 ## Stack
 ```
-Para el proyecto se uso Vue, junto con las herramientas de Vue CLI, asi como el lenguaje de sass como preprocesador de css, adicional se escogio una estructura simple de carpetas en 
+Para el proyecto se uso Vue, junto con las herramientas de Vue CLI, 
+asi como el lenguaje de sass como preprocesador de css, 
+adicional se escogio una estructura simple de carpetas en 
 donde el proyecto se separa por Vistas y componentes reutilizables.
 ```
 
 ## Project setup
-Luego de clonar el repositorio nos ubicamos dentro de la carpeta del proyecto e instalamos todas las dependencias atraves de NPM con siguiente comando
+Luego de clonar el repositorio nos ubicamos dentro de la carpeta del proyecto 
+e instalamos todas las dependencias atraves de NPM con siguiente comando
 ```
 npm install
 ```
 
 
 ### Compiles and hot-reloads for development
-Para levantar el proyecto en un servidor de desarrollo ejecutaremos el siguiente comando y accederemos a la ruta que nos provee el script
+Para levantar el proyecto en un servidor de desarrollo ejecutaremos el siguiente comando 
+y accederemos a la ruta que nos provee el script
 ```
 npm run serve
 ```

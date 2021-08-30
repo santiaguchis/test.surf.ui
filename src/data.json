@@ -28,9 +28,9 @@
             "id" : 2,
             "images" : [
                 {
-                    "src" : "https://surf.santiagomora.com/data/images/modelo-2021-soft-01.png",
-                    "alt" : "Imagen de tabla de surf, modelo Soft 2021 Foto de arriba",
-                    "srcset" : "https://surf.santiagomora.com/data/images/modelo-2021-soft-01.png, https://surf.santiagomora.com/data/images/modelo-2021-soft-01@2x.png x2"
+                    "src" : "https://surf.santiagomora.com/data/images/modelo-2021-single-fin-01.png",
+                    "alt" : "Imagen de tabla de surf, modelo Single Fin 2021 Foto de arriba",
+                    "srcset" : "https://surf.santiagomora.com/data/images/modelo-2021-single-fin-01.png, https://surf.santiagomora.com/data/images/modelo-2021-single-fin-01@2x.png x2"
                 },
                 {
                     "src" : "https://surf.santiagomora.com/data/images/modelo-2021-soft-02.png",
@@ -51,9 +51,9 @@
             "id" : 3,
             "images" : [
                 {
-                    "src" : "https://surf.santiagomora.com/data/images/modelo-2021-soft-01.png",
-                    "alt" : "Imagen de tabla de surf, modelo Soft 2021 Foto de arriba",
-                    "srcset" : "https://surf.santiagomora.com/data/images/modelo-2021-soft-01.png, https://surf.santiagomora.com/data/images/modelo-2021-soft-01@2x.png x2"
+                    "src" : "https://surf.santiagomora.com/data/images/modelo-2021-lct-aqua-01.png",
+                    "alt" : "Imagen de tabla de surf, modelo LCT Aqua 2021 Foto de arriba",
+                    "srcset" : "https://surf.santiagomora.com/data/images/modelo-2021-lct-aqua-01.png, https://surf.santiagomora.com/data/images/modelo-2021-lct-aqua-01@2x.png x2"
                 },
                 {
                     "src" : "https://surf.santiagomora.com/data/images/modelo-2021-soft-02.png",
@@ -74,9 +74,9 @@
             "id" : 4,
             "images" : [
                 {
-                    "src" : "https://surf.santiagomora.com/data/images/modelo-2021-soft-01.png",
-                    "alt" : "Imagen de tabla de surf, modelo Soft 2021 Foto de arriba",
-                    "srcset" : "https://surf.santiagomora.com/data/images/modelo-2021-soft-01.png, https://surf.santiagomora.com/data/images/modelo-2021-soft-01@2x.png x2"
+                    "src" : "https://surf.santiagomora.com/data/images/modelo-2021-juju-01.png",
+                    "alt" : "Imagen de tabla de surf, modelo Juju 2021 Foto de arriba",
+                    "srcset" : "https://surf.santiagomora.com/data/images/modelo-2021-juju-01.png, https://surf.santiagomora.com/data/images/modelo-2021-juju-01@2x.png x2"
                 },
                 {
                     "src" : "https://surf.santiagomora.com/data/images/modelo-2021-soft-02.png",
@@ -97,9 +97,9 @@
             "id" : 5,
             "images" : [
                 {
-                    "src" : "https://surf.santiagomora.com/data/images/modelo-2021-soft-01.png",
-                    "alt" : "Imagen de tabla de surf, modelo Soft 2021 Foto de arriba",
-                    "srcset" : "https://surf.santiagomora.com/data/images/modelo-2021-soft-01.png, https://surf.santiagomora.com/data/images/modelo-2021-soft-01@2x.png x2"
+                    "src" : "https://surf.santiagomora.com/data/images/modelo-2021-veggie-burger-01.png",
+                    "alt" : "Imagen de tabla de surf, modelo Veggie Burger 2021 Foto de arriba",
+                    "srcset" : "https://surf.santiagomora.com/data/images/modelo-2021-veggie-burger-01.png, https://surf.santiagomora.com/data/images/modelo-2021-veggie-burger-01@2x.png x2"
                 },
                 {
                     "src" : "https://surf.santiagomora.com/data/images/modelo-2021-soft-02.png",

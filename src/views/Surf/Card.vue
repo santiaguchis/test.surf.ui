@@ -9,12 +9,14 @@
             <div class="picture animate">
                 <div class="list-images animate">
                     <div class="item-img" v-if="item.images && item.images.length">
-                        <img :src="item.images[0].src" :alt="item.images[0].alt" class="">
+                        <img :src="item.images[item.picture].src" :alt="item.images[item.picture].alt" class="">
                     </div>
                 </div>
                 <div class="paginate animate">
-                    <button class="btn-page animate active"
+                    <button class="btn-page animate"
+                        :class="( this.item.picture == index ) ? 'active' : ''"
                         v-for="( page, index ) in item.images"
+                        @click="setPicture( index )"
                         :key="index">
                         {{ index + 1 }}
                     </button>
@@ -57,10 +59,15 @@ export default {
         },
         closeOverImages() {
             this.item.active = false
+        },
+        setPicture( key ) {
+            this.item.picture = key
+            console.log( key , this.item.picture )
         }
     },
     mounted() {
         this.item = this.data
+        this.item.picture = 0
     }
 }
 </script>
@@ -210,7 +217,8 @@ export default {
             text-align: center;
             vertical-align: bottom;
             font-weight: 400;
-            margin: 0 1rem;
+            padding: 0 .5rem;
+            margin: 0 .3rem;
             transform-origin: 0 100%;
             font-weight: 200;
             font-family: Arial;
@@ -248,6 +256,7 @@ export default {
             }
             &.active {
                 font-size: 3.2rem;
+                transition-delay: 0 !important;
                 &:before {
                     opacity: 1;
                     visibility: visible;

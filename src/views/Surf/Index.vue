@@ -3,6 +3,7 @@
         <swiper
             :slides-per-view="1"
             :space-between="40"
+            :loop="true"
             :breakpoints="breakpoints"
             @swiper="onSwiper"
             @touchMove="onTouchMove"
@@ -44,12 +45,12 @@ export default {
             console.log('slide change');
         };
         const breakpoints = {
-            "320": {
+            "560": {
                 "slidesPerView": 2,
                 "spaceBetween": 20
             },
             "991": {
-                "slidesPerView": 3,
+                "slidesPerView": 2,
                 "spaceBetween": 40
             },
             "1280": {
@@ -70,7 +71,7 @@ export default {
     },
 }
 </script>
-<style lang="scss" scoped>
+<style lang="scss">
 .container {
     padding: 30px;
     .swiper-slide {
